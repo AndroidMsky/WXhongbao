@@ -2,8 +2,9 @@
 自动领取微信红包,支持锁屏聊天界面等各种情况
 	转载请注明作者AndroidMSky和链接http://blog.csdn.net/AndroidMsky/article/details/53490459
 又是兴趣系列
-欢迎star
 
+
+欢迎star欢迎fork issue
 网上有很多自动强红包的例子和代码，笔者也是做了一些优化。
 
 先说说自己的两个个优势
