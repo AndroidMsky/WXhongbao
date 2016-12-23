@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:text="对话内监控状态:开(耗电)"
+        android:text="对话内监控状态:默认关(开启会更耗电)"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="start"

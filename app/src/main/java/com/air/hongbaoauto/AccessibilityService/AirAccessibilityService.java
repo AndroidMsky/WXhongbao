@@ -97,13 +97,13 @@ public class AirAccessibilityService extends AccessibilityService {
                 } else if (className.equals("com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyReceiveUI")) {
                     //开红包
                     Log.e("AAAAAAAA", "开红包");
-                    click("com.tencent.mm:id/bag");
+                    click("com.tencent.mm:id/bdh");
                     auto = false;
                     WXMAIN = false;
                 } else if (className.equals("com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyDetailUI")) {
                     //退出红包
                     Log.e("AAAAAAAA", "退出红包");
-                    click("com.tencent.mm:id/fb");
+                    click("com.tencent.mm:id/gq");
                     WXMAIN = false;
 
                 } else {
