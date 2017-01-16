@@ -20,7 +20,7 @@
 ![这里写图片描述](http://img.blog.csdn.net/20161207095742232?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvQW5kcm9pZE1za3k=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 微信6.5.3体验APK 
-https://github.com/AndroidMsky/WXhongbao/raw/master/hongbao6.5.3.apk
+https://github.com/AndroidMsky/WXhongbao/raw/master/6.3.32.apk
 
 
 ## License
