@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">AndroidMsky红包插件</string>
-    <string name="description">AndoirdMsky微信6.5.3抢红包插件,可以在对话内强红包,可开启关闭本功能,默认关闭</string>
-    <string name="label">AndroidMsky微信6.5.3版自动抢红包</string>
+    <string name="description">AndoirdMsky微信6.3.32抢红包插件,可以在对话内强红包,可开启关闭本功能,默认关闭</string>
+    <string name="label">AndroidMsky微信6.3.32版自动抢红包</string>
 </resources>

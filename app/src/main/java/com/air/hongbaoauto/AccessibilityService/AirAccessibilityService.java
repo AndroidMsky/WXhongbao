@@ -62,11 +62,14 @@ public class AirAccessibilityService extends AccessibilityService {
 
                 break;
             case AccessibilityEvent.TYPE_NOTIFICATION_STATE_CHANGED:
+
+                Log.e("AAAAAAAA", "youtongzhi");
                 List<CharSequence> texts = event.getText();
                 if (!texts.isEmpty()) {
                     for (CharSequence text : texts) {
                         String content = text.toString();
-                        if (content.contains("[微信红包]")) {
+                        Log.e("AAAAAAAA", "youtongzhi"+content);
+                        if (content.contains("微信红包")) {
                             if (event.getParcelableData() != null &&
                                     event.getParcelableData() instanceof Notification) {
                                 Notification notification = (Notification) event.getParcelableData();
@@ -95,9 +98,10 @@ public class AirAccessibilityService extends AccessibilityService {
                     auto = false;
                     WXMAIN = true;
                 } else if (className.equals("com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyReceiveUI")) {
-                    //开红包be_  bdh
+                    //开红包6.5.3 be_
+                    // 6.3.32bdh
                     Log.e("AAAAAAAA", "开红包");
-                    click("com.tencent.mm:id/be_");
+                    click("com.tencent.mm:id/bdh");
                     auto = false;
                     WXMAIN = false;
                 } else if (className.equals("com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyDetailUI")) {
